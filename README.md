@@ -26,8 +26,8 @@ Midi Keyboard/Controller
     -down: Arpeggiates through the chord downwards, i.e. B-G-E-C  
     -up-down: Arpeggiates upwards then dowards, i.e. C-E-G-B-G-E-C  
     -down-up: Arpeggiates downwards then upwards, i.e. B-G-E-C-E-G-B  
-    -funnel-up: Funnels the notes starting from the bottom, playing the bottom note, then the top note, then the next bottom note, then the next top note, etc. i.e. C-B-E-G  
-    -funnel-down: Funnels the notes starting from the top, playing the top note, then the bottom note, then the next top note, then the next bottom note, etc. i.e. B-C-G-E  
+    -funnel-up: Funnels the notes starting from the bottom, playing the bottom note, then the top note, then the next bottom     note, then the next top note, etc. i.e. C-B-E-G  
+    -funnel-down: Funnels the notes starting from the top, playing the top note, then the bottom note, then the next top     note, then the next bottom note, etc. i.e. B-C-G-E  
     -stairs: Plays the notes in a stepwise sequence, i.e. C-E-G-E-G-B-G-B-C  
     -random Plays the notes in a random ordering  
 
