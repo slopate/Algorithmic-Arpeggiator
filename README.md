@@ -21,31 +21,29 @@ Midi Keyboard/Controller
 
 ~arp_rate - This sets the note subdivision at which the arpeggiator will play. For reference: 1 = quarter note, 0.5 = eighth note, 0.25 = sixteenth note, etc.
 
-~mode - This sets the mode or the note ordering algorithm of the arpeggiator. There are 8 modes available which I'll explain below, using a C major 7 chord (C-E-G-B) as an example.
-    -up: Arpeggiates through the chord upwards, i.e. C-E-G-B
-    -down: Arpeggiates through the chord downwards, i.e. B-G-E-C
-    -up-down: Arpeggiates upwards then dowards, i.e. C-E-G-B-G-E-C
-    -down-up: Arpeggiates downwards then upwards, i.e. B-G-E-C-E-G-B
-    -funnel-up: Funnels the notes starting from the bottom, playing the bottom note, then the top note, then the next bottom note, then
-     the next top note, etc. i.e. C-B-E-G
-    -funnel-down: Funnels the notes starting from the top, playing the top note, then the bottom note, then the next top note, then the
-     next bottom note, etc. i.e. B-C-G-E
-    -stairs: Plays the notes in a stepwise sequence, i.e. C-E-G-E-G-B-G-B-C
-    -random Plays the notes in a random ordering
+~mode - This sets the mode or the note ordering algorithm of the arpeggiator. There are 8 modes available which I'll explain below, using a C major 7 chord (C-E-G-B) as an example.  
+    -up: Arpeggiates through the chord upwards, i.e. C-E-G-B  
+    -down: Arpeggiates through the chord downwards, i.e. B-G-E-C  
+    -up-down: Arpeggiates upwards then dowards, i.e. C-E-G-B-G-E-C  
+    -down-up: Arpeggiates downwards then upwards, i.e. B-G-E-C-E-G-B  
+    -funnel-up: Funnels the notes starting from the bottom, playing the bottom note, then the top note, then the next bottom note, then the next top note, etc. i.e. C-B-E-G  
+    -funnel-down: Funnels the notes starting from the top, playing the top note, then the bottom note, then the next top note, then the next bottom note, etc. i.e. B-C-G-E  
+    -stairs: Plays the notes in a stepwise sequence, i.e. C-E-G-E-G-B-G-B-C  
+    -random Plays the notes in a random ordering  
 
-~amp_mode - This sets the algorithm for setting amplitude of the notes. There are 5 modes which I'll explain below.
-    -static: All amplitudes are constant
-    -ascend: Amplitudes start quiet and get louder throughout the arpeggiation
-    -descend: Amplitudes start loud and get quieter throughout the arpeggiation
-    -drunk: Amplitude is centered around a constant value but has a chance to deviate and be louder or quiter
-    -random: Amplitude is a random value
+~amp_mode - This sets the algorithm for setting amplitude of the notes. There are 5 modes which I'll explain below.  
+    -static: All amplitudes are constant  
+    -ascend: Amplitudes start quiet and get louder throughout the arpeggiation  
+    -descend: Amplitudes start loud and get quieter throughout the arpeggiation  
+    -drunk: Amplitude is centered around a constant value but has a chance to deviate and be louder or quiter  
+    -random: Amplitude is a random value  
 
-~pan_mode - This sets the algorithm for setting panning of the notes. There are 5 modes which I'll explain below.
-    -static: All panning is centered
-    -waveLR: Panning moves in a wave from left to right
-    -waveRL: Panning moves in a wave from right to left
-    -ping-pong: Panning oscillates between right and left
-    -random: Panning is in a random position
+~pan_mode - This sets the algorithm for setting panning of the notes. There are 5 modes which I'll explain below.  
+    -static: All panning is centered  
+    -waveLR: Panning moves in a wave from left to right  
+    -waveRL: Panning moves in a wave from right to left  
+    -ping-pong: Panning oscillates between right and left  
+    -random: Panning is in a random position  
 
 ~density - This is a value between 0 and 1 that controls the chance that a note will be skipped in the arpeggiation. If density is set to 1, no notes will be skipped. If it's set to 0.5, half the notes will be skipped. If it's set to 0, all the notes will be skipped.
 
